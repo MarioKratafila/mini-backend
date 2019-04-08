@@ -18,12 +18,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 // These are following the REST API standard
 
-<<<<<<< HEAD
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "http://localhost:80")
-=======
 @CrossOrigin(origins = "http://localhost:4200")
->>>>>>> parent of 4253c97... added 80 port as an origin
 @RestController
 public class TodoResource {
 
