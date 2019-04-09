@@ -1,4 +1,4 @@
-package com.epam.restfulwebservices;
+package com.epam.restfulwebservices.todo;
 
 import java.util.Date;
 

@@ -1,10 +1,10 @@
-package com.epam.restfulwebservices.helloworld;
+package com.epam.restfulwebservices.basicauth;
 
-public class HelloWorldBean {
+public class AuthenticationBean {
 
 	private String message;
 
-	public HelloWorldBean(String message) {
+	public AuthenticationBean(String message) {
 		this.message = message;
 	}
 
