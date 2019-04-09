@@ -1,4 +1,4 @@
-package com.epam.restfulwebservices.basic.auth;
+package com.epam.rest.basic.auth;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

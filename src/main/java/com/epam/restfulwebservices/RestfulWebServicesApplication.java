@@ -7,6 +7,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
+@SuppressWarnings("deprecation") // Official Spring Guide recommendation - this is an issue which never solved
 @SpringBootApplication
 public class RestfulWebServicesApplication {
 
@@ -14,7 +15,6 @@ public class RestfulWebServicesApplication {
 		SpringApplication.run(RestfulWebServicesApplication.class, args);
 	}
 
-	@SuppressWarnings("deprecation") // Official Spring Guide recommendation - this is an issue which never solved
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurerAdapter() {
